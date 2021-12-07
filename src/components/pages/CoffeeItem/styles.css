@@ -1,0 +1,43 @@
+.coffee {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5rem;
+    box-shadow: 0 2px 7px #d1d1d1;
+    background: rgb(241, 222, 192);
+}
+
+.coffee-photo {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 5px;
+
+}
+
+.coffee-name {
+    font-size: 1.5rem;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.coffee-type {
+    font-weight: bold;
+}
+
+.coffee-type {
+    color: rgb(124, 119, 109);
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+.coffee-price {
+    color: rgb(124, 119, 109);
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
